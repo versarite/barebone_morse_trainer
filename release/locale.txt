@@ -1,0 +1,25 @@
+# MorseTest – deutsche Konsolentexte
+# UTF-8-Textdatei. Neben der Programmdatei (EXE) speichern.
+# Format: key=value
+# Die Schlüssel links vom Gleichheitszeichen unverändert lassen.
+# Bei formatierten Statusmeldungen beide %d-Platzhalter beibehalten.
+
+prompt_wpm=Geschwindigkeit in WPM eingeben (z. B. 45, 55): 
+menu_mode_title=Trainingszeichen auswählen:
+mode_1=  1 : Nur Buchstaben (A-Z)
+mode_2=  2 : Nur Zahlen (0-9)
+mode_3=  3 : Gemischt (Buchstaben und Zahlen)
+mode_4=  4 : Gemischt mit Satzzeichen (.,?!/-)
+mode_5=  5 : Gemischt mit Satzzeichen und Umlauten (äöü.,?!/-)
+prompt_mode=Auswahl eingeben (1-5): 
+menu_limit_title=Trainingsdauer auswählen:
+limit_0=  0 : Nach 50 Gruppen beenden
+limit_1=  1 : Endlosschleife
+prompt_limit=Auswahl eingeben (0-1): 
+init_audio=Soundkarten-Hardware wird initialisiert...
+status_endless=Trainingslauf gestartet: %d WPM | Modus: %d | Endlosbetrieb
+status_finite=Trainingslauf gestartet: %d WPM | Modus: %d | Ziel: 50 Gruppen
+close_hint=Zum Beenden des Trainings Strg+C in diesem Fenster drücken.
+completed=Der Trainingslauf wurde abgeschlossen.
+exit_hint=Zum Beenden die Eingabetaste drücken.
+audio_error=Audioausgabegerät konnte nicht geöffnet werden.

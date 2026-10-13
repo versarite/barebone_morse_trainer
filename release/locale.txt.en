@@ -1,0 +1,22 @@
+# MorseTest English console strings
+# Save beside the executable.
+
+prompt_wpm=Enter Speed in WPM (e.g. 45, 55):
+menu_mode_title=Select Training Target Type:
+mode_1=  1 : Pure Letters (A-Z)
+mode_2=  2 : Pure Numbers (0-9)
+mode_3=  3 : Balanced Mixed (Letters & Numbers)
+mode_4=  4 : Mixed with Punctuation (.,?!/-)
+mode_5=  5 : Mixed with Punctuation and Extended Umlauts (äöü.,?!/-)
+prompt_mode=Enter Selection (1-5):
+menu_limit_title=Select Group Length Rule:
+limit_0=  0 : Stop after 50 groups
+limit_1=  1 : Endless loop
+prompt_limit=Enter Selection (0-1):
+init_audio=Initializing Sound Card Hardware Context...
+status_endless=Running Practice Loop: %dWPM | Mode: %d | Endless Mode
+status_finite=Running Practice Loop: %dWPM | Mode: %d | Target: 50 Groups
+close_hint=Press Ctrl + C in this window to close training.
+completed=Target practice run completed.
+exit_hint=Press Enter to exit.
+audio_error=Unable to open audio device.
